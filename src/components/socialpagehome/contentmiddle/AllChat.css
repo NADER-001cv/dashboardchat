@@ -1,0 +1,5 @@
+@media only screen and (max-width: 320px){
+    .textMessageCenter{
+        text-align: center !important;
+    }
+}
