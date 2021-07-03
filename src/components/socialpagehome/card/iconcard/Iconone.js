@@ -1,8 +1,14 @@
 import React from "react";
 
 function Iconone() {
+       const styleone = {
+    width: "36px",
+    height: "36px",
+    backgroundColor: "#1EA5CF",
+    borderRaduis: "10px",
+  };
   return (
-    <div className="bg-primary w-20 p-1  rounded-3 m-2">
+    <div  className="  p-1  rounded-3 m-2" style={styleone} >
       <svg
         width="24"
         height="24"

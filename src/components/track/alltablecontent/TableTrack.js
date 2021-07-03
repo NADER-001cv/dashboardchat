@@ -7,10 +7,10 @@ function TableTrack() {
         <div>
                   <div className="container content_table mx-5">
                 <div className="row bg-white  justify-content-between   ">
-                   <div className="col">
+                   <div className="col-md-10">
                      <Content/>
                    </div>
-                      <div className="col  ">
+                      <div className="col-md-2  coltwo">
                        <IconContent/>
                    </div>
                 </div>

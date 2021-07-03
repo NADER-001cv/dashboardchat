@@ -1,6 +1,9 @@
 import React from "react";
 import "./card.css";
 import Iconone from "./iconcard/Iconone";
+import Icontwo from './iconcard/IconTwo'
+import Iconthree from './iconcard/IconThree'
+import Iconfour from './iconcard/IconFour'
 import imgb from "../../../images/cardimages/b.png";
 import imgc from "../../../images/cardimages/c.png";
 import imgd from "../../../images/cardimages/d.png";
@@ -31,8 +34,8 @@ function Card() {
             <div class="card mb-3 card_dimentions">
               <div class="card-body">
                 <div class="d-flex justify-content-start">
-                  <img src={imgb} class="img-fluid rounded-start" alt="..." />
-            
+                
+                   <Icontwo/>
                 <div class="text-center ms-2">
                
                     <h5 class="card-title pt-2">Order</h5>
@@ -52,8 +55,8 @@ function Card() {
             <div class="card mb-3 card_dimentions">
               <div class="card-body">
                 <div class="d-flex justify-content-start">
-                  <img src={imgc} class="img-fluid rounded-start" alt="..." />
-            
+              
+                     <Iconthree />
                 <div class="text-center ms-2">
                
                     <h5 class="card-title pt-2">Order</h5>
@@ -70,8 +73,8 @@ function Card() {
             <div class="card mb-3 card_dimentions">
               <div class="card-body">
                 <div class="d-flex justify-content-start">
-                  <img src={imgd} class="img-fluid rounded-start" alt="..." />
             
+                 <Iconfour/>
                 <div class="text-center ms-2">
                
                     <h5 class="card-title pt-2">Order</h5>
@@ -94,3 +97,12 @@ function Card() {
 }
 
 export default Card;
+
+
+
+//   <img src={imgb} class="img-fluid rounded-start" alt="..." />
+
+//     <img src={imgc} class="img-fluid rounded-start" alt="..." />
+
+
+//       <img src={imgd} class="img-fluid rounded-start" alt="..." />

@@ -1,3 +1,21 @@
 .content_table {
-    width: 95% !important;
+    width: 80vw !important;
+}
+
+
+
+
+@media  (min-width:768px)  and (max-width:1024px)  {
+
+
+    .row{
+
+
+           display: flex !important;
+           justify-content: space-between !important;
+     }
+     .coltwo{
+         margin-left: 50px !important;
+     }
+    
 }

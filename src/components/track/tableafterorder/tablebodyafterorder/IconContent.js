@@ -1,12 +1,13 @@
 import React from 'react'
+import './IconContent'
 import * as Icon  from 'react-feather'
 import DeleteIcon from './DeleteIcon'
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 function IconContent() {
     return (
         <div>
-            <div  className="container">
-               <div className="row  align-items-start p-2 mt-5">
+            <div  className="container   ">
+               <div className="row  align-items-start p-2 mt-5 iconcontentleft">
                   <div className="col-1">
 
                     <ChatBubbleOutlineIcon/>

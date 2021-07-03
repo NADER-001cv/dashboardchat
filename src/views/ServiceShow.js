@@ -6,10 +6,10 @@ function ServiceShow() {
     return (
           <div className="container-fluid">
       <div className="row">
-        <div className="col-2 p-2  bg-white">
+        <div className="col-md-2 p-2  bg-white">
           <Asid />
         </div>
-        <div className="col-10 asid_bg_clor z-index-2">
+        <div className="col-md-10 asid_bg_clor z-index-2">
           <ShowTracking />
         </div>
       </div>

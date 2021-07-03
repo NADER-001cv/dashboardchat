@@ -5,8 +5,8 @@ function CardChangeICON() {
     return (
         <div>
             <div  className="container">
-               <div className="row  align-items-start p-2 mt-4">
-                  <div className="col-1">
+               <div className="row  align-items-start  p-2 mt-4">
+                  <div className="col-1 me-3 ">
 
                     <AddCircleOutlineIcon/>
                   </div>
@@ -16,7 +16,7 @@ function CardChangeICON() {
                </div>
                 <div class="w-100"></div>
                    <div className="row  p-2">
-                  <div className="col-1">
+                  <div className="col-1 me-3">
                      <Icon.Edit   />
                   </div>
                         <div className="col-9 mx-auto">
@@ -26,7 +26,7 @@ function CardChangeICON() {
                </div>
                   <div class="w-100"></div>
                   <div className="row p-2 ">
-                  <div className="col-1">
+                  <div className="col-1 me-3">
                      <Icon.Delete/>
                   </div>
                         <div className="col-9 mx-auto">
